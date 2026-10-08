@@ -1,0 +1,304 @@
+<d```html <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Tenis Jordan</title>
+
+        <style>
+            button {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: #d71920;
+                color: white;
+                border: none;
+                padding: 12px 18px;
+                border-radius: 50px;
+                cursor: pointer;
+            }
+
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #222;
+            }
+
+            header {
+                background-color: #111;
+                color: white;
+                text-align: center;
+                padding: 30px;
+            }
+
+            header h1 {
+                font-size: 45px;
+                margin: 10px;
+            }
+
+            nav {
+                background-color: #d71920;
+                text-align: center;
+                padding: 15px;
+            }
+
+            nav a {
+                color: white;
+                text-decoration: none;
+                margin: 15px;
+                font-weight: bold;
+            }
+
+            nav a:hover {
+                text-decoration: underline;
+            }
+
+            section {
+                padding: 40px;
+                max-width: 1000px;
+                margin: auto;
+            }
+
+            .inicio {
+                text-align: center;
+                background-color: white;
+            }
+
+            .inicio img {
+                width: 300px;
+                max-width: 90%;
+                border-radius: 15px;
+            }
+
+            h2 {
+                color: #d71920;
+                font-size: 30px;
+            }
+
+            .tarjetas {
+                display: flex;
+                gap: 20px;
+                flex-wrap: wrap;
+            }
+
+            .tarjeta {
+                background-color: white;
+                padding: 20px;
+                border-radius: 12px;
+                flex: 1;
+                min-width: 200px;
+                box-shadow: 0 3px 10px #ccc;
+            }
+
+            .tarjeta h3 {
+                color: #d71920;
+            }
+
+            .datos {
+                background-color: #111;
+                color: white;
+            }
+
+            footer {
+                background-color: #d71920;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            @media (max-width: 600px) {
+                header h1 {
+                    font-size: 32px;
+                }
+
+                nav a {
+                    display: block;
+                    margin: 10px;
+                }
+
+                section {
+                    padding: 25px;
+                }
+            }
+        </style>
+    </head>
+    <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        ↑ Subir
+    </button>
+
+    <body>
+
+        <header>
+            <h1> TENIS JORDAN</h1>
+            <p></p>
+        </header>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#modelos">Modelos</a>
+            <a href="#caracteristicas">Características</a>
+            <a href="#datos">Datos</a>
+        </nav>
+
+        <section id="inicio" class="inicio">
+
+            <h2>Tenis Jordan</h2>
+
+            <p>
+                Los tenis Jordan son una de las líneas de calzado deportivo
+                más reconocidas del mundo. Su historia comenzó con el jugador
+                de baloncesto Michael Jordan.
+            </p>
+
+            <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3" alt="Tenis deportivos">
+
+        </section>
+
+        <section id="historia">
+
+            <h2>Historia</h2>
+
+            <p>
+                Los primeros Air Jordan aparecieron en 1985 y fueron creados
+                para el jugador de baloncesto Michael Jordan.
+            </p>
+
+            <p>
+                El primer modelo fue el Air Jordan 1. Su diseño llamó mucho
+                la atención y ayudó a unir el mundo del baloncesto con la moda.
+            </p>
+
+            <p>
+                Con el paso de los años aparecieron nuevos modelos y los
+                tenis Jordan se hicieron populares dentro y fuera de las
+                canchas.
+            </p>
+
+        </section>
+
+        <section id="modelos">
+
+            <h2>Modelos populares</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+                    <h3>Air Jordan 1</h3>
+                    <p>
+                        Fue el primer modelo de la línea Jordan y apareció
+                        en 1985.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Air Jordan 3</h3>
+                    <p>
+                        Es reconocido por su diseño y por formar parte
+                        importante de la historia de Jordan.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Air Jordan 4</h3>
+                    <p>
+                        Combina características deportivas con un diseño
+                        utilizado también en la moda urbana.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Air Jordan 11</h3>
+                    <p>
+                        Es conocido por su diseño elegante y por su importancia
+                        dentro de la línea Jordan.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="caracteristicas">
+
+            <h2>Características</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+                    <h3>Diseño</h3>
+                    <p>
+                        Tienen diseños deportivos que también son utilizados
+                        como parte de la moda casual.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Colores</h3>
+                    <p>
+                        Existen muchas combinaciones de colores y diferentes
+                        versiones de los modelos.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Tecnología</h3>
+                    <p>
+                        Los diferentes modelos utilizan tecnologías de
+                        amortiguación y distintos materiales.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Estilo</h3>
+                    <p>
+                        Pasaron de ser principalmente tenis de baloncesto
+                        a formar parte de la moda urbana.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="datos" class="datos">
+
+            <h2>Datos interesantes</h2>
+
+            <ul>
+                <li>El Air Jordan 1 apareció en 1985.</li>
+                <li>La línea Jordan está relacionada con Michael Jordan.</li>
+                <li>Los primeros Jordan fueron creados para el baloncesto.</li>
+                <li>Existen muchos modelos y combinaciones de colores.</li>
+                <li>Los Jordan forman parte de la cultura urbana.</li>
+                <li>Algunos modelos son coleccionados en todo el mundo.</li>
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Conclusión</h2>
+
+            <p>
+                Los tenis Jordan tienen una historia relacionada con el
+                baloncesto, pero su importancia va más allá del deporte.
+                El legado de Michael Jordan, sus diseños y su presencia
+                en la cultura popular hicieron que se convirtieran en
+                uno de los modelos de tenis deportivos más reconocidos.
+            </p>
+
+        </section>
+
+        <footer>
+            <p>Proyecto escolar - pagina informativa tenis Jordan</p>
+            <p>Yozgar Alexander Guevara Guerrero</p>
+
+        </footer>
+
+    </body>
+
+    </html>
