@@ -42,7 +42,8 @@ nav a {
   padding: 12px 18px;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.activo {
   background: #b91510;
 }
 
